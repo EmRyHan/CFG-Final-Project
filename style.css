@@ -1,0 +1,150 @@
+/* NavBar */
+/* .navbar{
+    width: 100%; 
+    height: 100px;
+} */
+
+.navbar_ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:#f1faee ;
+
+}
+
+.navbar li {
+    display:inline;
+    float: left;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.logo {
+    cursor: default;
+    width:auto; 
+    height:90px;
+}
+
+.navbar a {
+    display: block;
+    color: #1D3557;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar a:hover {
+    background-color: #A8DADC;
+}
+
+.active:hover {
+    background-color: #1D3557 ;
+    color: #f1faee ;
+}
+/* NavBar End */
+
+/* Top Heading */
+#reviewbar {
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: center;
+  padding:1px;
+  background-color: #1D3557;
+  width: auto;
+  height: 50px;
+ text-align: center;
+}
+
+.toptext {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  padding:1px;
+  border: 1px;
+  align-self: center;
+  flex-wrap: nowrap;
+}
+
+.lineicon {
+  width: 275px;
+  height: 5px;
+  margin: 0px 0px 0px 0px;
+  padding: 10px;
+  align-self: center;
+
+}
+
+/* Split Home Screen */
+.centered {
+    align-items: center;
+}
+/* Left Background*/
+  .left {
+    width: 50%; 
+    height: 1000px; 
+    background-color: #A8DADC; 
+    float: left;
+  }
+
+  .textboxbackgroundleft {
+    margin:20px;
+    padding: auto;
+    border: solid 1px #457B9D;
+    border-radius: 5px;
+    background-color: #F0EFE2 ;
+  }
+
+/* Inside Left */
+  .starimage1{
+    width: 250px;
+    height: auto;
+    margin-left: 30%;
+    margin-top: 15px;
+    margin-inline-end: 6.5%;
+    background-color: #F0EFE2;
+  }
+
+  .reviewheading {
+    font-size: 25px;
+    font-style: italic;
+    font-style: bold;
+    color: #777;
+    margin-left: 5%;
+    margin-inline-end: 6.5%;
+    margin-top: -2px;
+    margin-bottom: -20px;
+    background-color: #F0EFE2;
+    /* margin-block-end: 10px; */
+  }
+
+  .reviewbody {
+    font-size: 20px;
+    font-style: italic;
+    color: #1D3557;
+    padding: -10px;
+    margin-left: 30%;
+  }
+
+/* Right Background*/
+  .right {
+    width: 50%; 
+    height: 1000px; 
+    background-color: #f1faee; 
+    float: right;
+  }
+
+ /* Inside Right */
+
+  #food1 {
+    
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-right: 25px;
+    width: 80%;
+    height: auto;
+    margin-bottom: 0px;
+  }
